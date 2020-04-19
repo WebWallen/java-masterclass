@@ -19,6 +19,7 @@ public class SMChallenge {
         if (sec <= 0) return "Invalid value";
         int minutes = sec / 60;
         int seconds = sec % 60;
+        
         // Must return versus assigning to variable in this case
         return getDurationString(minutes, seconds);
     }

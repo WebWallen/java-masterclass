@@ -13,7 +13,9 @@ public class speed {
 
     public static void printConversion(double kmph) {
         if (kmph < 0) System.out.println("Invalid value");
+        
         long miles = mph(kmph);
+        
         System.out.println(kmph + " km/h = " + miles + " mi/h");
     }
 }
